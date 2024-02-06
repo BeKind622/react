@@ -1,13 +1,15 @@
 const Doctor = (props) =>{
     return(
-        <div className="">
+        <>
         <h1> Doctor details </h1>
 
-        <p>First name:{props.Doctor}</p>
-        <p>Last name:{props.Doctor}</p>
-        <p>Department:{props.Doctor}</p>
+        <p>First name:{props.doc_fname}</p>
+        <p>Last name:{props.doc_lname}</p>
+        <p>Department:{props.doc_dept}</p>
 
-        </div>
-
+        
+</>
     )
 }
+
+export default Doctor

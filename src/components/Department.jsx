@@ -8,9 +8,9 @@ const Department = (props) =>{
 
            <p> Dept Name: { props.dept} </p>
 
-           <p> Doctor: { props.doctor} </p>
+           <p> Room: { props.room} </p>
 
-           <p> Doctor: { props.nurse} </p>
+           <p> Nurse: { props.nurse} </p>
 
          </>
 
